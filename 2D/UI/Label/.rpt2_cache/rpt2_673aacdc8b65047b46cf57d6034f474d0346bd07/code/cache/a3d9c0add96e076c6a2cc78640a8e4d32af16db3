@@ -1,0 +1,4 @@
+{
+  "code": "export default class TestLabel extends Laya.Script {\r\n    constructor() {\r\n        super();\r\n    }\r\n    onAwake() {\r\n        this.lable = this.owner;\r\n        this.lable.text = \"11111111111111\";\r\n        console.log(Laya.Label.drawtocanvCtx);\r\n    }\r\n    CreateNewLabeWithDefaultContent(content) {\r\n        return new Laya.Label(content);\r\n    }\r\n    CreatNewLable() {\r\n        return new Laya.Label();\r\n    }\r\n    SetLableAutoSize(lable, state) {\r\n        lable.autoSize = state;\r\n    }\r\n    SethitTestPrior(lable, state) {\r\n        lable.hitTestPrior = state;\r\n    }\r\n    SetMouseThrough(lable, state) {\r\n        lable.mouseThrough = state;\r\n    }\r\n}\r\n",
+  "references": []
+}
